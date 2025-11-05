@@ -1,0 +1,32 @@
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react(),tailwindcss(),],
+})
+
+
+
+
+
+
+
+// vite.config.js
+// import { defineConfig } from 'vite'
+// import react from '@vitejs/plugin-react'
+// import tailwindcss from '@tailwindcss/vite' 
+
+// export default defineConfig({
+//   plugins: [react(),tailwindcss(),],
+  
+//   server: {
+//     host: '0.0.0.0', // allow connections from LAN IPs
+//     port: 5173,
+//     strictPort: true,
+//     hmr: {
+//       host: '10.27.4.11', // your machine’s LAN IP
+//     },
+//   },
+// })

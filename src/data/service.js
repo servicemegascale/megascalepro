@@ -1,0 +1,339 @@
+// data/service.js
+const data = {
+  services: [
+    {
+      name: "Cloud Solutions",
+      icon: "cloud-network",
+      cloudPlatforms: [
+        {
+          name: "Google Cloud Platform (GCP)",
+          description: "Leverage Google's cutting-edge infrastructure and suite of cloud services, including computing, storage, databases, analytics, machine learning, and AI. We help you migrate, manage, and optimize your workloads on GCP for scalability, security, and cost-efficiency.",
+          icon: "cloud"
+        },
+        {
+          name: "Oracle Cloud Infrastructure (OCI)",
+          description: "Our full-stack development teams are proficient in a wide range of technologies, including web development (front-end and back-end), mobile app development (native and cross-platform), and cloud development. We leverage agile methodologies, prioritize security and scalability, and deliver custom software solutions tailored to your unique needs.",
+          icon: "oracle"
+        },
+        {
+          name: "Amazon Web Services (AWS)",
+          description: "As an AWS Partner, Megascale empowers you to harness the vast potential of the world's leading cloud platform. We provide comprehensive services, from cloud architecture design and migration to ongoing management and optimization. Benefit from unmatched scalability, a wide range of services, and a global reach with AWS.",
+          icon: "amazon"
+        },
+        {
+          name: "Microsoft Azure",
+          description: "Tap into the power of Microsoft's robust cloud platform, known for its seamless integration with Microsoft products and services. Our team of Azure experts can guide you through migration, management, and optimization, allowing you to leverage Azure's scalability, security, and hybrid cloud capabilities.",
+          icon: "micro"
+        },
+        {
+          name: "IBM Cloud",
+          description: "Explore the flexibility and security of IBM Cloud, ideal for businesses with a focus on open standards and hybrid cloud environments. We can help you migrate workloads, manage your cloud infrastructure, and leverage IBM's cognitive services (Watson) to unlock new possibilities.",
+          icon: "cloud"
+        },
+        {
+          name: "DigitalOcean Cloud",
+          description: "Experience a developer-friendly cloud platform with a simple pricing structure. Our team can assist you with migrating and managing your applications on DigitalOcean, making it ideal for startups and businesses seeking a cost-effective cloud solution.",
+          icon: "dicloud"
+        },
+        {
+          name: "Open-Source Software Support",
+          description: "In addition to these leading cloud platforms, Megascale also offers comprehensive support for open-source software like Linux, Apache, and MySQL. Our team of open-source specialists can help you manage, optimize, and troubleshoot your open-source deployments.",
+          icon: "open"
+        }
+      ],
+      cloudFeatures: [
+        {
+          name: "Cloud Agnostic Expertise",
+          description: "We are not tied to any one platform. Our experts can recommend the best cloud solution for your specific needs and budget.",
+          icon: "tile"
+        },
+        {
+          name: "Seamless Cloud Migration & Management",
+          description: "Our team ensures a smooth transition to the cloud and provides ongoing management services to optimize your cloud environment.",
+          icon: "shield"
+        },
+        {
+          name: "Enhanced Security & Compliance",
+          description: "We help you optimize your cloud costs by identifying opportunities for resource allocation and service selection.",
+          icon: "shield"
+        },
+        {
+          name: "Cost Optimization",
+          description: "We believe technology should be easy to understand and use, not just by us but also by those we serve.",
+          icon: "stretching"
+        },
+        {
+          name: "24/7 Support",
+          description: "Our dedicated support team is available around the clock to address your cloud-related inquiries and resolve any issues promptly.",
+          icon: "24-7"
+        }
+      ],
+      businessValues: [
+        {
+          name: "Scalability & Agility",
+          description: "\"Global Catalyst for Innovation\" our ambition to be a leader in the IT industry worldwide.",
+          icon: "analytics"
+        },
+        {
+          name: "Increased Efficiency",
+          description: "\"Revolutionizing Businesses\" Megascale transformative power of your software solutions.",
+          icon: "efficiency"
+        },
+        {
+          name: "Improved Business Continuity",
+          description: "\"Exceptional Software Solutions\" showcases our dedication to delivering top-tier work.",
+          icon: "agreement"
+        },
+        {
+          name: "Enhanced Collaboration",
+          description: "Empowering Businesses to Scale. We envision a world where every company thrives with the power of Megascale's software solutions.",
+          icon: "world-creativity-and-innovation-day"
+        },
+        {
+          name: "Innovation & Competitive Advantage",
+          description: "The Future of Software Development is Agile. We see Megascale at the forefront, delivering cutting-edge solutions with unmatched expertise.",
+          icon: "world-creativity-and-innovation-day"
+        }
+      ],
+     
+         description: `
+# Key Features & Benefits
+- Durable Material: Made from premium fibreglass these screens resist wear and tear ensuring long-lasting performance.
+- Lightweight & Easy to Handle: Simple installation and removal for cleaning or seasonal adjustments.
+- Enhanced Visibility & Airflow: Allows fresh air in while keeping bugs out.
+- Sleek, Modern Design: Complements any home or business décor.
+- Custom Fit Available: Standard and custom sizes ensure a precise fit for every window or door.
+
+# Why Choose Fibreglass Flyscreens?
+- Ideal for families and commercial properties
+- Cost-effective and low-maintenance
+- Protects against insects without compromising comfort
+- Long-lasting solution that maintains its look and function
+
+# Maintenance Tips
+- Clean with mild soap and water regularly
+- Inspect for minor tears or damage and call for repair as needed
+
+# Get Your Fibreglass Flyscreen Today
+Contact Wa Flyscreen to schedule an on-site installation or repair. We provide mobile service across Perth and Peel, ensuring a hassle-free experience.  
+📞 Phone: [Insert Number] | 📧 Email: [Insert Email]
+`,
+ 
+    },
+    {
+      name: "Software Testing",
+      icon: "speedometer",
+      cloudPlatforms: [
+        {
+          title: "Functional Testing",
+          description: "We meticulously test software functionalities to ensure they adhere to your requirements and specifications."
+        },
+        {
+          title: "Non-Functional Testing",
+          description: "We evaluate performance, usability, security, and compatibility to guarantee a seamless user experience."
+        },
+        {
+          title: "Mobile App Testing",
+          description: "Our specialists rigorously test your mobile app across various devices and platforms.",
+          image: "12083317_Wavy_Bus-15_Single-03"
+        },
+        {
+          title: "API Testing",
+          description: "We ensure your application programming interfaces (APIs) function flawlessly and integrate seamlessly with other systems."
+        },
+        {
+          title: "Security Testing",
+          description: "We prioritize the security of your software by conducting thorough penetration testing and vulnerability assessments."
+        },
+        {
+          title: "Automation Testing",
+          description: "We leverage automation tools to streamline repetitive testing processes, saving time and resources."
+        }
+      ],
+      cloudFeatures: [
+        {
+          title: "Experienced Testers",
+          description: "Our team comprises highly skilled testers with proven experience across diverse technologies and software domains.",
+          icon: "page-optimization-1"
+        },
+        {
+          title: "In-Depth Testing Expertise",
+          description: "We go beyond basic functionality testing. We delve deep into performance, security, usability, and compatibility to ensure a polished final product.",
+          icon: "test"
+        },
+        {
+          title: "Agile & Collaborative Approach",
+          description: "We work closely with your development team throughout the testing process, fostering communication and ensuring timely issue resolution.",
+          icon: "digital-collaboration"
+        },
+        {
+          title: "Test Automation Expertise",
+          description: "Our team is adept at leveraging automation tools to optimize testing efficiency and reduce costs.",
+          icon: "brain"
+        },
+        {
+          title: "Scalable Testing Solutions",
+          description: "We tailor our testing services to your specific project needs and budget, ensuring you receive the right level of testing coverage.",
+          icon: "solution"
+        }
+      ],
+      businessValues: [
+        {
+          id: "improved-software-quality",
+          title: "Improved Software Quality",
+          description: "Identify and address bugs early in the development cycle to deliver high-quality, reliable software.",
+          icon: "user"
+        },
+        {
+          id: "enhanced-user-experience",
+          title: "Enhanced User Experience",
+          description: "Ensure your software is user-friendly, performs well, and functions flawlessly across different devices and platforms.",
+          icon: "user"
+        },
+        {
+          id: "reduced-development-costs",
+          title: "Reduced Development Costs",
+          description: "Early defect detection prevents costly rework and delays later in the development process.",
+          icon: "reduce-cost"
+        },
+        {
+          id: "increased-customer-satisfaction",
+          title: "Increased Customer Satisfaction",
+          description: "Deliver bug-free, reliable software that meets user expectations and fosters brand loyalty.",
+          icon: "happy"
+        },
+        {
+          id: "faster-time-to-market",
+          title: "Faster Time to Market",
+          description: "Efficient testing processes help you get your software to market quicker.",
+          icon: "speedometer"
+        }
+      ]
+    },
+    {
+      name: "Our Services",
+      icon: "Services",
+      cloudPlatforms: [
+        {
+          title: "Cloud Solutions",
+          description: "We are experts in leading cloud platforms like Google Cloud Platform (GCP), Amazon Web Services (AWS), Microsoft Azure, Oracle Cloud Infrastructure (OCI), and more.",
+          details: "We assist with cloud migration, management, optimization, and ensuring security and compliance within your cloud environment.",
+          button: "Know More",
+          icon: "cloud"
+        },
+        {
+          title: "Software Development",
+          description: "Our full-stack development teams are proficient in a wide range of technologies, including web development (front-end and back-end), mobile app development (native and cross-platform), and cloud development.",
+          details: "We leverage agile methodologies, prioritize security and scalability, and deliver custom software solutions tailored to your unique needs.",
+          button: "Know More",
+          icon: "software-development"
+        },
+        {
+          title: "Web Development",
+          description: "We craft exceptional web experiences using cutting-edge technologies like HTML5, CSS3, modern JavaScript frameworks, and secure back-end development practices.",
+          details: "We prioritize user experience, performance optimization, and scalability to ensure your website thrives in the online landscape.",
+          button: "Know More",
+          icon: "web-developer"
+        },
+        {
+          title: "Mobile App Development",
+          description: "Our team specializes in building high-performance native Android and iOS apps using Kotlin and Swift programming languages respectively.",
+          details: "We can also develop cross-platform apps using relevant SDKs to reach a wider audience.",
+          button: "Know More",
+          icon: "mobile-apps"
+        },
+        {
+          title: "IT Support & Customer Care",
+          description: "We offer 24/7 technical support and customer care services to address your IT inquiries and resolve technical issues promptly.",
+          details: "Our team provides proactive maintenance plans, self-service resources, and training programs to empower your team and optimize IT operations.",
+          button: "Know More",
+          icon: "call-service"
+        },
+        {
+          title: "Software Testing",
+          description: "We offer comprehensive software testing services across various domains, including functional, non-functional, mobile app, API, security, and automation testing.",
+          details: "Our team leverages industry-standard tools and frameworks to ensure exceptional software quality before deployment.",
+          button: "Know More",
+          icon: "programmer"
+        },
+        {
+          title: "Offshore Development Services",
+          description: "We connect businesses with highly qualified offshore developers, providing a cost-effective solution for expanding your development team.",
+          details: "We offer a rigorous vetting process, streamlined project management, and prioritize clear communication for successful offshore development projects.",
+          button: "Know More",
+          icon: "setting"
+        },
+        {
+          title: "Open-Source Software Support",
+          description: "Our team provides comprehensive support for open-source software like Linux, Apache, and MySQL, ensuring efficient management, optimization, and troubleshooting.",
+          button: "Know More",
+          icon: "web-developer-1"
+        },
+        {
+          title: "IT Staff Augmentation Services",
+          description: "We provide comprehensive support for open-source software, such as Linux, Apache, and MySQL. Our dedicated team ensures effective management, optimization, and expert troubleshooting, providing your company with seamless open-source solutions.",
+          button: "Know More",
+          icon: "setting"
+        }
+      ]
+    },
+    {
+      name: "Offshore Development Services",
+      icon: "coding"
+    },
+    {
+      name: "IT Staff Augmentation Services",
+      icon: "solution"
+    },
+    {
+      name: "Digital Marketing",
+      icon: "promotio"
+    },
+    {
+      name: "Android app Development",
+      icon: "mobile-apps"
+    },
+    {
+      name: "Big Data Analytics",
+      icon: "big-data"
+    },
+    {
+      name: "Artificial Intelligence",
+      icon: "artificial-intelligence"
+    },
+    {
+      name: "Web Development",
+      icon: "computer"
+    },
+    {
+      name: "Mobile development",
+      icon: "mobile"
+    },
+    {
+      name: "Software Development",
+      icon: "employee"
+    },
+    {
+      name: "E-commerce Services",
+      icon: "shop"
+    },
+    {
+      name: "IT Support & Customer Care",
+      icon: "support"
+    },
+    {
+      name: "Robotics",
+      icon: "robot"
+    },
+    {
+      name: "Ipad and Iphone App Development",
+      icon: "phone-settings"
+    },
+    {
+      name: "Networking & Security Solutions",
+      icon: "online-security"
+    }
+  ]
+};
+
+export default data;

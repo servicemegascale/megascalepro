@@ -1,0 +1,26 @@
+{
+  "featuredJobs": [
+    {
+      "id": 1,
+      "title": "Marketing Executive",
+      "description": "We are looking for a dynamic Marketing Executive to join our growing team. The ideal candidate will have a strong understanding of marketing strategies and tactics, with experience in digital marketing, content creation, and social media management. You will be responsible for developing and implementing marketing campaigns, analyzing market trends, and driving brand awareness.",
+      "experience": "0 to 2 year",
+      "workingHours": "9:00am to 6:00pm",
+      "workingDays": "6 Days (Mon-Sat)",
+      "salary": "5,000-20,000",
+      "vacancies": 5,
+      "deadline": "2025-08-31"
+    },
+    {
+      "id": 2,
+      "title": "Customer Service Representative",
+      "description": "Join our team as a Customer Service Representative. You will handle customer inquiries, resolve issues, and ensure a positive experience. Strong communication skills and empathy are essential.",
+      "experience": "1 to 3 years",
+      "workingHours": "10:00am to 7:00pm",
+      "workingDays": "5 Days (Mon-Fri)",
+      "salary": "8,000-25,000",
+      "vacancies": 3,
+      "deadline": "2025-09-15"
+    }
+  ]
+}
