@@ -17,6 +17,7 @@ import {
   Rocket,
   Settings,
   Zap,
+  HeartHandshake 
 } from "lucide-react";
 
 // ===== Helper to get Icon =====
@@ -58,7 +59,7 @@ const networkAndSecurityData = {
           "We craft compelling ad campaigns alongside strategic organic growth techniques to maximize your reach.",
       },
       {
-        icon: <Server size={26} />,
+        icon: <HeartHandshake  size={26} />,
         heading: "Engagement is Key: ",
         description:
           "Foster brand loyalty through interactive content, contests, and community management.",
